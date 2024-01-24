@@ -1,0 +1,86 @@
+/* сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.head1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.parag {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.head2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.inp {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.but {
+    width: 100px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.div1 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.div2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.div3 {
+    margin: 50px;
+    padding: 50px;
+}
+
+.link:hover {
+    background-color: aqua;
+}
+
+.link:active {
+    background-color: chartreuse;
+}
+
+.div3:active {
+    background-color: brown;
+}
